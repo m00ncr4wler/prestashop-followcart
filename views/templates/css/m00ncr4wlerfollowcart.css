@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+    #buy_block.affix {
+        position: fixed !important;
+        width: 213px;
+        top: 38px;
+    }
+    .page-product-box {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #buy_block.affix {
+        position: fixed !important;
+        width: 270px;
+        top: 38px;
+    }
+    .page-product-box {
+        width: 75%;
+    }
+}
+
+@media (max-width: 991px) {
+    #buy_block.affix, #buy_block.affix-top, #buy_block.affix-bottom {
+        position: static !important;
+        width: auto;
+        top: 0;
+    }
+}

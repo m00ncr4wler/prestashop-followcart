@@ -16,7 +16,7 @@ class m00ncr4wlerFollowCart extends Module {
 
         $this->displayName = $this->l('Vertical follow cart on product page.');
         $this->description = $this->l('Vertical follow cart on product page.');
-        //$this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
+        $this->confirmUninstall = $this->l('Are you sure you want to delete your details?');
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
 
